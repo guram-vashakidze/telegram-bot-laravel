@@ -1,0 +1,28 @@
+{
+    "name": "vashakidze/telegram",
+    "description": "Laravel library for telegram API",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev",
+        "bensampo/laravel-enum": "^5.3",
+        "illuminate/routing": "9.x-dev",
+        "illuminate/foundation": "4.0.x-dev",
+        "illuminate/support": "9.x-dev",
+        "illuminate/console": "9.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guram Vashakidze",
+            "email": "uranik156@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vashakidze\\Telegram\\TelegramServiceProvider"
+            ]
+        }
+    }
+}
